@@ -44,7 +44,7 @@ module.exports = {
 			method: 'GET',
 			url: 'https://kingproxies.com/api/v2/proxies.json',
 			qs: {
-				key: options.kingproxies && options.kingproxies.apiKey || null,
+				key: '135e39c0918ecde3e5cb244217c3b3',
 				type: options.anonymityLevels.join(','),
 				protocols: options.protocols.join(','),
 				alive: 'true',

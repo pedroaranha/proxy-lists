@@ -44,7 +44,7 @@ module.exports = {
 			method: 'GET',
 			url: 'https://bitproxies.eu/api/v2/proxies',
 			qs: {
-				apiKey: options.bitproxies && options.bitproxies.apiKey || null,
+				apiKey: 'i2ihyEnOVah7gdCWpTrDteW6nxDUAcCQ',
 				anonymityLevels: options.anonymityLevels.join(','),
 				protocols: options.protocols.join(','),
 				countries: _.keys(options.countries).join(','),

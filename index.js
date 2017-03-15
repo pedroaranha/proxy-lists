@@ -117,7 +117,7 @@ var ProxyLists = module.exports = {
 		if (source.requiredOptions) {
 			_.each(source.requiredOptions, function(message, key) {
 				if (!options[name] || !_.isObject(options[name]) || !options[name][key]) {
-					throw new Error('Missing required option (`option.' + name + '.' + key + '`): ' + message);
+					//throw new Error('Missing required option (`option.' + name + '.' + key + '`): ' + message);
 				}
 			});
 		}
